@@ -1,12 +1,11 @@
 <template>
   <div class="sticky top-0 z-50 w-full backdrop-blur supports-[backdrop-filter]:bg-[#0F141B]/60">
-    <section class="relative mx-auto max-w-[1140px] px-6 md:px-8 flex h-16 items-center justify-between">
-      <div class="flex items-center gap-3">
-        <div class="flex h-8 w-8 items-center justify-center rounded-md bg-gradient-to-br from-accent-deep to-accent">
-          <div class="h-3 w-3 rounded-sm bg-white/90" />
+      <section class="relative mx-auto max-w-[1140px] px-6 md:px-8 flex h-16 items-center justify-between">
+        <div class="header__logo">
+          <a href="#">
+            <img src="/img/logo.svg" alt="Логотип компании">
+          </a>
         </div>
-        <span class="font-semibold tracking-tight text-slate-100">trickster</span>
-      </div>
       <nav class="hidden md:flex items-center gap-6 text-slate-300">
         <a href="#use-cases" class="hover:text-white">Use Cases</a>
         <a href="#how" class="hover:text-white">How it works</a>

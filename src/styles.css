@@ -259,3 +259,22 @@ section[id] { scroll-margin-top: 88px; } /* header ~64px + some space */
   100% { transform: translateX(-50%); }
 }
 
+/* --- Logo Styles --- */
+.header__logo img {
+  width: 200px;
+  height: auto;
+  display: block;
+  transition: opacity 0.2s ease-in-out; /* Плавность при наведении */
+}
+
+.header__logo a:hover img {
+  opacity: 0.8; /* Небольшая прозрачность при наведении на ссылку */
+}
+
+/* --- Adaptive for Logo --- */
+@media (max-width: 768px) {
+  .header__logo img {
+    width: 150px;
+  }
+}
+
