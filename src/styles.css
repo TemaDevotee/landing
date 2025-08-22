@@ -260,21 +260,12 @@ section[id] { scroll-margin-top: 88px; } /* header ~64px + some space */
 }
 
 /* --- Logo Styles --- */
-.header__logo img {
-  width: 200px;
-  height: auto;
-  display: block;
-  transition: opacity 0.2s ease-in-out; /* Плавность при наведении */
-}
+.header__logo img { height: 36px; width: auto; display:block; transition: opacity .2s ease-in-out; }
 
 .header__logo a:hover img {
   opacity: 0.8; /* Небольшая прозрачность при наведении на ссылку */
 }
 
 /* --- Adaptive for Logo --- */
-@media (max-width: 768px) {
-  .header__logo img {
-    width: 150px;
-  }
-}
+@media (max-width: 768px){ .header__logo img{ height:28px; width:auto; } }
 
